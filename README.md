@@ -61,6 +61,7 @@ deactivate
 | [Regressão Linear](./regressao_linear/) | Teoria, fórmulas e notebook prático com Iris dataset | ✅ |
 | [Classificação](./classificacao/) | Teoria + comparação de Reg. Logística, KNN, Árvore de Decisão e Naive Bayes | ✅ |
 | [Agrupamento](./agrupamento/) | Teoria + K-Means, DBSCAN e Hierárquico com métricas internas | ✅ |
+| [Deep Learning](./deep_learning/) | Teoria + tensores, autograd e rede neural com PyTorch | ✅ |
 
 ## Estrutura
 
@@ -76,9 +77,12 @@ machinelearning-aprendizado/
 ├── classificacao/
 │   ├── README.md                        # Teoria, métricas e algoritmos
 │   └── classificacao_iris.ipynb         # Notebook: Reg. Logística, KNN, Árvore, Naive Bayes
-└── agrupamento/
-    ├── README.md                        # Teoria, métricas internas e algoritmos
-    └── agrupamento_iris.ipynb           # Notebook: K-Means, DBSCAN, Hierárquico
+├── agrupamento/
+│   ├── README.md                        # Teoria, métricas internas e algoritmos
+│   └── agrupamento_iris.ipynb           # Notebook: K-Means, DBSCAN, Hierárquico
+└── deep_learning/
+    ├── README.md                        # Teoria: neurônios, backprop, PyTorch
+    └── deep_learning_pytorch.ipynb      # Notebook: tensores, autograd, rede neural
 ```
 
 ## Abrindo os notebooks
